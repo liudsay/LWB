@@ -1,0 +1,28 @@
+﻿1. 错误
+2.引用传递
+3.表示该类不能别继承，是顶级类
+4.Error:小时系统级的错误和程序不必处理的异常，是java运行环境中的内部错误或者是硬件问题，对于这种错误，程序基本无法修复
+  Exception：表示需要捕捉或者需要程序进行处理的异常，他的处理售后因为程序设计的瑕疵为引起的问题或者在外输入等引起的一般性问题，是程序必须处理的
+5. final是修饰符，如果一个类被定义为final类，意味着不能作为父类被继承
+   finally实在异常处理室提供finally块来自省任何清楚操作。
+6.两个，一个字符对象， 一个引用对象。
+7.都是错误的，s1为short类， 1为int类，需要强制转换
+8.数组没有length（）方法，string有length（）方法。
+9.Overload 是方法的重载，是一个类中多态性的一种，如果一个类中定义了多个不同名的方法，他们或有不同参数个数或不同的参数类型，则成为方法的重载
+  Override是方法的覆盖，是父类与子类之间一种多态性的一种表现方法，如果在子类中定义某方法与其父类有相同的名称和参数，我们说该方法被覆盖。
+10. 1抽象类中的方法可以有方法体，但是接口不行 2抽象类中的成员变量可以是各种各样的，而接口中的变量只能是publicstaticfinal类型的
+    3 接口中不能含有静态代码块以及静态方法，而抽象类是可以有静态代码块和静态方法的
+    4 一个类只能继承一个抽象类，而一个类却可以实现读个接口。
+11.Constructor不能被继承，所以不能被Overrid但是可以Overload
+12.不可以String是final类
+13.FantherClass Create
+   FantherClass Create
+   ChildClass Create
+14. 1.通过实现Runnable接口 2.通过继承Thread类本身  3.通过Callable和Future创建线程。
+15. wait sleep notify Allnotity
+16.不能
+17.CE
+18.Strig是一个常量，String的长度是不可改变的。 StringBuffer类的对象能够被多次修改，并且不产生新的未使用对象。
+19.实现Serializable和Externalizable
+20.实现Comparable接口
+21.Collection接口又有三种子类型，List set 和queue，再下面是一些抽象类，最后具体实现类。
